@@ -1,0 +1,23 @@
+Web Application
+
+1. Create a simple web application
+	Framework: Laravel
+	UI: Vue.js
+	Database: MySQL
+
+2. It must have a button named “Ping”
+3. Below the Ping button is a table that shows records from the database table with the following columns
+	- Date and Time
+	- HTTP Response
+4. When the Ping button is clicked it should send a GET request to a REST API
+5. The web application should save the following into the database
+	- Date and Time value extracted from the JSON-formatted data in the HTTP Response body
+	- Full HTTP Response including the header
+6. The web application should refresh the table (not the whole page) to reflect the updated records in the database
+
+
+REST API
+1. Create a REST API application
+	- Node.js
+2. It must accept GET request
+3. It must return a JSON response containing the current Date and Time
