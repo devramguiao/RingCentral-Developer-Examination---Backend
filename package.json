@@ -1,0 +1,29 @@
+{
+  "name": "restful_api",
+  "version": "1.0.0",
+  "description": "restful API for Ringcentral Technical Examination",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcyanga628/RingCentral-Developer-Examination-Backend.git"
+  },
+  "keywords": [
+    "restful",
+    "API",
+    "backend-side"
+  ],
+  "author": "Jose Czar Yanga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcyanga628/RingCentral-Developer-Examination-Backend/issues"
+  },
+  "homepage": "https://github.com/jcyanga628/RingCentral-Developer-Examination-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  }
+}
